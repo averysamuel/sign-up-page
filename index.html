@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <script src="script.js" defer></script>
+    <title>SignInPage</title>
+</head>
+<body>
+    <div class="body-left">
+        <div class ="logo">
+            <img src="./img/ablogo.png" height=180px width=200px alt= "logo image">
+        </div>
+        <p>Photo by <a href="https://unsplash.com/s/photos/scott-webb-photography">Scott Webb</a> at <a href="https://unsplash.com/">Unsplash</a></p>
+    </div>
+    <div class="body-right">
+        <p>Say hello to the first night of the rest of your life! We're here to help you live the life you always imagined. Sign up
+            now and buckle in for the ride of a lifetime! 
+            <br>
+            <br>
+            You'll never be the same again...
+        </p>
+        <div class="form">
+            <form action="#" method ="post">
+        <h2>Let's do this</h2>
+            
+            <fieldset>
+                     <div id="form-left">
+                            <label for="first_Name">FIRST NAME:</label>
+                            <input type="text" id="first_Name" name="first_Name" placeholder="First Name" required>
+                      
+                            <label for="user_Email">EMAIL:</label>
+                            <input type="email" id="user_Email" name="email" placeholder="you@example.com" required>
+
+                            <label for="user_password">PASSWORD:</label>
+                            <input type="password" id="user_password" name="password" placeholder= "*****" required>
+                        </div>
+                        <div id="form-right">
+                           
+                            <label for="last_Name">LAST NAME:</label>
+                            <input type="text" id="last_Name" name="last_Name" placeholder="Last Name" required>
+                           
+                            <label for="phone_Number">PHONE:</label>
+                            <input type="number" id="phone_Number" name="phone" placeholder="(123)123-1234" required minlength="10" maxlength="10">
+                     
+                            <label for="confirm_password">CONFIRM PASSWORD:</label>
+                            <input type="password" id="confirm_password" placeholder= "*****" required>
+                        </div>
+            </fieldset>
+            <button id ="submit" type="submit">CREATE ACCOUNT</button>
+            </form>
+        </div>
+    </div>
+</body>
+</html>

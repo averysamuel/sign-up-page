@@ -1,0 +1,95 @@
+
+body{
+    display:flex;
+    min-height: 100vh; 
+    font-family: 'Montserrat', sans-serif;
+    font-weight:bold;
+}
+.body-left{
+    background-image: url('img/background.jpg'); 
+    background-size:cover;
+    display:flex;
+    flex-direction: column;
+    flex:1;
+}
+.body-left p,a{
+    margin-top:auto;
+    color:white;
+    align-self: center;
+    background-color: transparent;
+    font-weight:lighter;
+    
+}
+
+.logo{
+    justify-self: center;
+    display:flex;
+    justify-content: center;
+    background-color: rgba(255, 255, 255, 0.4);
+    margin-top: 55px;
+}
+.body-right{
+    flex:1.4;
+    background-color: rgb(231, 230, 228);
+}
+.body-right p,h2{
+    margin: 20px;
+    flex:1;
+    margin-top:60px;
+}
+
+.form-left{
+    margin-left: 30px;
+    flex:2;
+}
+.form-right{
+    align-self: flex-end;
+}
+.form fieldset{
+    display:flex;
+    flex:1;
+    gap:80px;
+    margin-top: 30px;
+    background-color: white;
+    padding: 5px;
+    box-shadow: rgba(104, 106, 107, 0.2) 5px 10px 30px;
+    border:0px;
+    padding-left: 30px;
+    padding-top:30px;
+}
+input {
+    border:1px solid rgba(129, 126, 126, 0.4);
+    border-radius: 5px;
+    margin-bottom:20px;
+    width: 200px;
+    height: 30px;
+}
+label {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 10px;
+    font-weight: bolder;
+}
+input,label{
+    display:block;
+}
+input:not(:focus):not(:placeholder-shown):invalid {
+    border-color:red;
+}
+  input:not(:focus):not(:placeholder-shown):valid {
+    border-color: green;
+}
+
+button{
+    background-color: rgb(76, 99, 13);
+    border-radius: 5px;
+    margin-top: 30px;
+    width: 120px;
+    height:40px;
+    color:white;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bolder;
+    border: 0px;
+    margin-left: 30px;
+    box-shadow: rgba(104, 106, 107, 0.2) 5px 10px 30px;
+}
+
